@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 35px;
   overflow: hidden;
 }
 
@@ -1076,9 +1076,23 @@ div#pills-home {
 
 .ulsec li a span {font-size: 13px;}
 
+td {text-align: center;
+    padding: 35px;}
+
+div#pills-tabContent2 {
+    padding: 0 5%;
+}
+
+div#pills-tabContent3 {
+    padding: 0 5%;
+}
+
 @media (max-width: 780px){
   .hero-container.aos-init.aos-animate {
     padding: 0 10%;
+}
+section {
+  padding: 60px 5px;
 }
 }
 
